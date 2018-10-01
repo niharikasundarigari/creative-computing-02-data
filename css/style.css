@@ -31,10 +31,14 @@ h2{
 }
 
 h3{
-  font-size: 20px;
-}
+  font-size: 25px;
+  color: black;
 
-img{
+
+
+
+
+ img{
   display: block;
   margin-left: auto;
   margin-top: auto;
