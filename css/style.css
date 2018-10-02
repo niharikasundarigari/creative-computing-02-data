@@ -34,11 +34,12 @@ h3{
   font-size: 25px;
   color: black;
 
+}
 
 
 
 
- img{
+img{
   display: block;
   margin-left: auto;
   margin-top: auto;
@@ -53,6 +54,7 @@ h3{
   height: 100%;
   width: 100%;
   align-self: center;
+
 
 }
 
@@ -72,8 +74,9 @@ h3{
   background-color: skyblue;
   color: white;
   display: inline-block;
-  vertical-align: top;
-  position: relative;
+  position: absolute;
+  box-sizing: border-box;
+
  
 }
 
@@ -81,7 +84,57 @@ h3{
   font-size: 25px;
   align-content: left;tu
   font-style: 'Raleway', sans-serif;
+  margin: auto;
 
+}
+
+.box-1 {
+  position: absolute;
+  display: inline-block;
+  top: 1000px;
+  left: 400px;
+}
+
+.box-2 {
+  position: absolute;
+  display: inline-block;
+  top: 1400px;
+  left: 400px;
+}
+
+.box-3 {
+  position: absolute;
+  display: inline-block;
+  top: 1800px;
+  left: 400px;
+}
+
+.box-4 {
+  position: absolute;
+  display: inline-block;
+  top: 2200px;
+  left: 400px;
+}
+
+.box-5 {
+  position: absolute;
+  display: inline-block;
+  top: 2600px;
+  left: 400px;
+}
+
+.box-6 {
+  position: absolute;
+  display: inline-block;
+  top: 3000px;
+  left: 400px;
+}
+
+.box-7 {
+  position: absolute;
+  display: inline-block;
+  top: 3400px;
+  left: 400px;
 }
 
 
