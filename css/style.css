@@ -211,52 +211,6 @@ left: 100px;
 
 
   .box-1 {
-top: 1400px;
-left: 450px;
- }
-
- .box-2{
-  top: 1800px;
-  left: 450px;
- }
-
- .box-3{
-  top: 2200px;
-  left: 450px;
- }
-
- .box-4{
-  top: 2600px;
-  left: 450px;
- }
-
-  .box-5 {
-  top: 3000px;
-  left: 450px;
- }
-
- .box-6{
-  top: 3400px;
-  left: 450px;
- }
-
-  .box-7 {
-    top: 3800px;
-left: 450px;
- }
-
- .box-8{
-  top: 4200px;
-  left: 450px;
- }
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1400px and up) */
-@media only screen and (min-width: 1400px) {
-
-  .box-1 {
 top: 1000px;
 left: 450px;
  }
@@ -295,6 +249,14 @@ left: 450px;
   top: 3800px;
   left: 450px;
  }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+ 
  
 }
 
