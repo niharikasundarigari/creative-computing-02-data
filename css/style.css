@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
   font-style: bold;
   text-align: center;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2{
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Lora', serif;
   text-align: center;
   background-color: skyblue;
@@ -41,11 +41,9 @@ h3{
 
 img{
   display: inline-block;
-  margin-left: auto;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  size: 10px
+  width: 100%;
+  height: 80%;
+  size: 10px;
 
 }
 
@@ -91,49 +89,49 @@ img{
 .box-1 {
   position: absolute;
   display: inline-block;
-  top: 1000px;
+  top: 1400px;
   left: 100px;
 }
 
 .box-2 {
   position: absolute;
   display: inline-block;
-  top: 1400px;
+  top: 1800px;
   left: 100px;
 }
 
 .box-3 {
   position: absolute;
   display: inline-block;
-  top: 1800px;
+  top: 2200px;
   left: 100px;
 }
 
 .box-4 {
   position: absolute;
   display: inline-block;
-  top: 2200px;
+  top: 2600px;
   left: 100px;
 }
 
 .box-5 {
   position: absolute;
   display: inline-block;
-  top: 2600px;
+  top: 3000px;
   left: 100px;
 }
 
 .box-6 {
   position: absolute;
   display: inline-block;
-  top: 3000px;
+  top: 3400px;
   left: 100px;
 }
 
 .box-7 {
   position: absolute;
   display: inline-block;
-  top: 3400px;
+  top: 3800px;
   left: 100px;
 }
 
@@ -145,35 +143,51 @@ left: 100px;
  }
 
  .box-2{
+  
   left: 350px;
  }
 
  .box-3{
+  
   left: 100px;
  }
 
  .box-4{
+  
   left: 350px;
  }
 
   .box-5 {
+
 left: 100px;
  }
 
  .box-6{
+  
   left: 350px;
  }
 
   .box-7 {
-left: 100px;
+    
+    left: 100px;
  }
 
  .box-8{
+ 
   left: 350px;
  }
 
  .box-content{
   font size: 15px;
+ }
+
+ img{
+  width: 50%;
+  height: 50%;
+ }
+
+ h1{
+  font-size: 50px;
  }
 
   }
@@ -190,34 +204,42 @@ left: 100px;
 @media only screen and (min-width: 1025px) {
 
   .box-1 {
+top: 1400px;
 left: 450px;
  }
 
  .box-2{
+  top: 1800px;
   left: 450px;
  }
 
  .box-3{
+  top: 2200px;
   left: 450px;
  }
 
  .box-4{
+  top: 2600px;
   left: 450px;
  }
 
   .box-5 {
-left: 450px;
+  top: 3000px;
+  left: 450px;
  }
 
  .box-6{
+  top: 3400px;
   left: 450px;
  }
 
   .box-7 {
+    top: 3800px;
 left: 450px;
  }
 
  .box-8{
+  top: 4200px;
   left: 450px;
  }
 
