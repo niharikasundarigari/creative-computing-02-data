@@ -89,49 +89,49 @@ img{
 .box-1 {
   position: absolute;
   display: inline-block;
-  top: 1400px;
+  top: 1200px;
   left: 100px;
 }
 
 .box-2 {
   position: absolute;
   display: inline-block;
-  top: 1800px;
+  top: 1600px;
   left: 100px;
 }
 
 .box-3 {
   position: absolute;
   display: inline-block;
-  top: 2200px;
+  top: 2000px;
   left: 100px;
 }
 
 .box-4 {
   position: absolute;
   display: inline-block;
-  top: 2600px;
+  top: 2400px;
   left: 100px;
 }
 
 .box-5 {
   position: absolute;
   display: inline-block;
-  top: 3000px;
+  top: 2800px;
   left: 100px;
 }
 
 .box-6 {
   position: absolute;
   display: inline-block;
-  top: 3400px;
+  top: 3200px;
   left: 100px;
 }
 
 .box-7 {
   position: absolute;
   display: inline-block;
-  top: 3800px;
+  top: 3600px;
   left: 100px;
 }
 
@@ -202,6 +202,12 @@ left: 100px;
 
 /* Large devices (laptops/desktops, 1025px and up) */
 @media only screen and (min-width: 1025px) {
+
+  img{
+    width: 100%;
+    height: 80%;
+  }
+
 
   .box-1 {
 top: 1400px;
