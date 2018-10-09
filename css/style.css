@@ -16,19 +16,20 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 60px;
   font-weight: bolder;
-  background-color: skyblue;
+  font-style: bold;
   text-align: center;
   font-family: 'Lora', serif;
 
 }
 
 h2{
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Lora', serif;
   text-align: center;
-  background-color: lightpink; 
+  background-color: skyblue;
+   
 }
 
 h3{
@@ -44,7 +45,7 @@ img{
   margin-top: auto;
   margin-right: auto;
   margin-bottom: auto;
-  size: 50px
+  size: 30px
 
 }
 
@@ -80,8 +81,8 @@ img{
 }
 
 .box-content {
-  font-size: 25px;
-  align-content: left;tu
+  font-size: 15px;
+  align-content: left;
   font-family: 'Lora', serif;
   margin: auto;
 
@@ -91,49 +92,142 @@ img{
   position: absolute;
   display: inline-block;
   top: 1000px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-2 {
   position: absolute;
   display: inline-block;
   top: 1400px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-3 {
   position: absolute;
   display: inline-block;
   top: 1800px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-4 {
   position: absolute;
   display: inline-block;
   top: 2200px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-5 {
   position: absolute;
   display: inline-block;
   top: 2600px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-6 {
   position: absolute;
   display: inline-block;
   top: 3000px;
-  left: 450px;
+  left: 100px;
 }
 
 .box-7 {
   position: absolute;
   display: inline-block;
   top: 3400px;
+  left: 100px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+ .box-1 {
+left: 100px;
+ }
+
+ .box-2{
+  left: 350px;
+ }
+
+ .box-3{
+  left: 100px;
+ }
+
+ .box-4{
+  left: 350px;
+ }
+
+  .box-5 {
+left: 100px;
+ }
+
+ .box-6{
+  left: 350px;
+ }
+
+  .box-7 {
+left: 100px;
+ }
+
+ .box-8{
+  left: 350px;
+ }
+
+ .box-content{
+  font size: 15px;
+ }
+
+  }
+    
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .box-content{
+    font-size: 23px;
+  }
+ 
+}
+
+/* Large devices (laptops/desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+
+  .box-1 {
+left: 450px;
+ }
+
+ .box-2{
   left: 450px;
+ }
+
+ .box-3{
+  left: 450px;
+ }
+
+ .box-4{
+  left: 450px;
+ }
+
+  .box-5 {
+left: 450px;
+ }
+
+ .box-6{
+  left: 450px;
+ }
+
+  .box-7 {
+left: 450px;
+ }
+
+ .box-8{
+  left: 450px;
+ }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+
+ 
 }
 
 
