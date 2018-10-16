@@ -68,7 +68,7 @@ img{
 
 .box {
   width: 30%;
-  height: 50%;
+  height: 80%;
   background-color: skyblue;
   color: white;
   display: inline-block;
@@ -79,7 +79,7 @@ img{
 }
 
 .box-content {
-  font-size: 15px;
+  font-size: 25px;
   align-content: left;
   font-family: 'Lora', serif;
   margin: auto;
@@ -89,94 +89,58 @@ img{
 .box-1 {
   position: absolute;
   display: inline-block;
-  top: 1200px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
+  
+
 }
 
 .box-2 {
   position: absolute;
   display: inline-block;
-  top: 1600px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
+  
 }
 
 .box-3 {
   position: absolute;
   display: inline-block;
-  top: 2000px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
 }
 
 .box-4 {
   position: absolute;
   display: inline-block;
-  top: 2400px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
 }
 
 .box-5 {
   position: absolute;
   display: inline-block;
-  top: 2800px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
 }
 
 .box-6 {
   position: absolute;
   display: inline-block;
-  top: 3200px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
 }
 
 .box-7 {
   position: absolute;
   display: inline-block;
-  top: 3600px;
-  left: 100px;
+  width: 100vw;
+  padding-top: 15px;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   
- .box-1 {
-left: 100px;
- }
-
- .box-2{
-  
-  left: 350px;
- }
-
- .box-3{
-  
-  left: 100px;
- }
-
- .box-4{
-  
-  left: 350px;
- }
-
-  .box-5 {
-
-left: 100px;
- }
-
- .box-6{
-  
-  left: 350px;
- }
-
-  .box-7 {
-    
-    left: 100px;
- }
-
- .box-8{
- 
-  left: 350px;
- }
-
  .box-content{
   font size: 15px;
  }
@@ -195,7 +159,7 @@ left: 100px;
   }
   img{
     width: 100%;
-    height: 80%;
+    height: 100%;
   }
  
 }
@@ -208,48 +172,6 @@ left: 100px;
     width: 100%;
     height: 80%;
   }
-
-
-  .box-1 {
-top: 1000px;
-left: 450px;
- }
-
- .box-2{
-  top: 1400px;
-  left: 450px;
- }
-
- .box-3{
-  top: 1800px;
-  left: 450px;
- }
-
- .box-4{
-  top: 2200px;
-  left: 450px;
- }
-
-  .box-5 {
-  top: 2600px;
-  left: 450px;
- }
-
- .box-6{
-  top: 3000px;
-  left: 450px;
- }
-
-  .box-7 {
-    top: 3400px;
-left: 450px;
- }
-
- .box-8{
-  top: 3800px;
-  left: 450px;
- }
-
 
 }
 
